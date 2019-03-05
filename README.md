@@ -1,5 +1,14 @@
-# Ustore
+# Ustore - Front End Only
 
+- Front end of project ustore
+
+- [x] index/login/register pages
+- [ ] Panel control soldiers
+- [ ] Panel control saruman
+- [ ] APIRest spring boot + spring mcv
+- [ ] test unit 
+
+----------- Policy
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
 ## Development server
