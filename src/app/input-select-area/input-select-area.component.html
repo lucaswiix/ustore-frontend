@@ -1,0 +1,7 @@
+<mat-form-field>
+    <mat-select placeholder="Area" required>
+      <mat-option *ngFor="let area of areas" [value]="area.value">
+        {{area.viewValue}}
+      </mat-option>
+    </mat-select>
+</mat-form-field>

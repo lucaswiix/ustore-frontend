@@ -1,0 +1,7 @@
+<mat-form-field>
+    <mat-select placeholder="Group" required>
+      <mat-option *ngFor="let grupo of grupos" [value]="grupo.value">
+        {{grupo.viewValue}}
+      </mat-option>
+    </mat-select>
+</mat-form-field>
