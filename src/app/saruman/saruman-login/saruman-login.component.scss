@@ -102,30 +102,8 @@ font-weight: 500;
   .mat-focused .placeholder {
     color: #fff;
 }
-/deep/ .mat-input-underline{
-    border-bottom: 1px solid red!important;
-}
 
 .orc-login-content a{
     color:#ccc;
 }
 
-.route-mapping
-{
-    font-size: 0.9em;
-    position: absolute;
-    top:-28px;
-    left:-5px;
-}
-.route-mapping a{
-    color:#ccc;
-    text-decoration: none;
-}
-.route-mapping span{
-    height: 30px;;
-}
-.route-mapping i{
-    // padding-top: 5px;
-    margin-top:5px;
-    font-size: 1.4em;
-}

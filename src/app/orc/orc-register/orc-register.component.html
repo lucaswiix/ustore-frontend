@@ -1,14 +1,12 @@
-<div id="background-initials">
-    <div class="row-initials">
-      <div class="box-initials">
         <div class="route-mapping">
           <span>
             <a routerLink="/">
-              <i class="material-icons">home</i> Home</a> /
+              <i class="material-icons vertical-align-middle">home</i> Home</a> /
               <a routerLink="/orc/login">Orc</a> / 
               Register
           </span>
         </div>
+
         <div class="box-initials-content">
             <div class="orc-login-content">
               <h3 style="font-weight: 500;">Join to war!</h3>
@@ -26,12 +24,16 @@
                     <mat-placeholder class="placeholder">Password</mat-placeholder>
                 </mat-form-field>
               
+                <mat-form-field>
+                    <input matInput class="input-text-login" type="password" required>
+                    <mat-placeholder class="placeholder">Confirm Password</mat-placeholder>
+                </mat-form-field>
                 
-                    <button mat-raised-button color="accent">Join</button>
+                    <button mat-raised-button color="warn">Join</button>
                 
-                <small>What? <a routerLink="/orc/login">Already registered?</a></small>
-              </div>
-</div>
-</div>
-</div>
-</div>
+                    <mat-list style="text-align: center;">                        
+                        <mat-divider style="margin:10px 10px;"></mat-divider>
+                        <small style="color:#fff;text-align: center;">What? <a routerLink="/orc/login">Already registered?</a></small>
+                      </mat-list>
+                              </div>
+          </div>

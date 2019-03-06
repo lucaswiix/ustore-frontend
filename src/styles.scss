@@ -1,5 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
-@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+// @import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+a,a:hover,a:focus
+{
+    color:inherit;
+    text-transform: none;
+    text-decoration: none;
+}
+.vertical-align-middle { 
+    vertical-align: middle; 
+}
+
+.route-mapping
+{
+    color:#fff;
+    font-size: 0.9em;
+    position: absolute;
+    top:-20px;
+    left:0px;
+}
+.route-mapping a{
+    color:#ccc;
+    text-decoration: none;
+}
+.route-mapping span{
+    
+    height: 30px;
+}
+.route-mapping i
+{
+    vertical-align: middle;
+    padding-bottom:3px;
+    font-size: 1.4em;
+}
+.box-initials-content h3
+{
+    color:#fafafa;
+}
+
+
