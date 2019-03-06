@@ -1,14 +1,28 @@
-# Ustore - Front End Only
+# Ustore - Front End Only [study]
 
 - Front end of project ustore
 
+Pages:
 - [x] index/login/register pages
-- [ ] Panel control soldiers
-- [ ] Panel control saruman
-- [ ] APIRest spring boot + spring mcv
+- [x] Dashboard Orcs
+- [ ] Profile Orcs
+- [ ] All Orders
+
+- [ ] Dashboard
+- [ ] Actions component
+- [ ] Send action
+- [ ] Msgs component
+- [ ] Send Messages
+- [ ] View all soldiers
+- [ ] Edit orc component
+
+Services:
+- [ ] Auth
+- [ ] ApiRest
 - [ ] test unit 
 
------------ Policy
+----------- 
+Policy
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
 ## Development server
