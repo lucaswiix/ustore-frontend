@@ -40,5 +40,17 @@ a,a:hover,a:focus
 {
     color:#fafafa;
 }
+.row
+{
+    display:flex !important;
+    flex-wrap: wrap !important;
+}
+.font-weight-500
+{
+    font-weight: 500 !important; 
+}
 
-
+.card-space
+{
+    padding:10px !important;
+}

@@ -15,13 +15,22 @@ import { InputSelectGroupComponent } from './input-select-group/input-select-gro
 import { InputSelectAreaComponent } from './input-select-area/input-select-area.component';
 import { FirstComponentComponent } from './first-component/first-component.component';
 import { OrcDashboardComponent } from './panel/orc/orc-dashboard/orc-dashboard.component';
-import { OrcNavbarComponent } from './panel/orc/orc-navbar/orc-navbar.component';
 import { OrcProfileComponent } from './panel/orc/orc-profile/orc-profile.component';
 import { SarumanDashboardComponent } from './panel/saruman/saruman-dashboard/saruman-dashboard.component';
-import { SarumanNavbarComponent } from './panel/saruman/saruman-navbar/saruman-navbar.component';
 import { SarumanComponent } from './panel/saruman/saruman/saruman.component';
 import { OrcComponent } from './panel/orc/orc/orc.component';
 import { LayoutModule } from '@angular/cdk/layout';
+import { SoldiersComponent } from './panel/saruman/soldiers/soldiers.component';
+import { OrdersComponent } from './panel/saruman/orders/orders.component';
+import { MessagesComponent } from './panel/saruman/messages/messages.component';
+import { StaticsComponent } from './panel/saruman/statics/statics.component';
+import { AllOrdersComponent } from './panel/saruman/all-orders/all-orders.component';
+import { NewOrderComponent } from './panel/saruman/new-order/new-order.component';
+import { InputSelectSoldiersComponent } from './input-select-soldiers/input-select-soldiers.component';
+import { AllMessagesComponent } from './panel/saruman/all-messages/all-messages.component';
+import { NewMessageComponent } from './panel/saruman/new-message/new-message.component';
+import { EditSoldierComponent } from './panel/saruman/edit-soldier/edit-soldier.component';
+import { AllSoldiersComponent } from './panel/saruman/all-soldiers/all-soldiers.component';
 
 
 @NgModule({
@@ -34,12 +43,21 @@ import { LayoutModule } from '@angular/cdk/layout';
     InputSelectAreaComponent,
     FirstComponentComponent,
     OrcDashboardComponent,
-    OrcNavbarComponent,
     OrcProfileComponent,
     SarumanDashboardComponent,
-    SarumanNavbarComponent,
     SarumanComponent,
     OrcComponent,
+    SoldiersComponent,
+    OrdersComponent,
+    MessagesComponent,
+    StaticsComponent,
+    AllOrdersComponent,
+    NewOrderComponent,
+    InputSelectSoldiersComponent,
+    AllMessagesComponent,
+    NewMessageComponent,
+    EditSoldierComponent,
+    AllSoldiersComponent,
   ],
   imports: [
     BrowserModule,

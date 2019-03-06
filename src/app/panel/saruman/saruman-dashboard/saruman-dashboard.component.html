@@ -1,3 +1,74 @@
-<p>
-  saruman-dashboard works!
-</p>
+<h3 class="font-weight-500">Latest messages sent</h3>
+<div class="row">
+
+<div class="card-spaces">
+    <mat-card class="card">
+        <mat-card-header>
+            <div mat-card-avatar class="card-header-image"></div>
+            <mat-card-title>Saruman</mat-card-title>
+            <mat-card-subtitle>to Globins in Isenguard</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsum suscipit, 
+            eligendi placeat dolorum optio quo unde nesciunt adipisci quisquam facilis modi?
+             Dicta alias eaque incidunt iusto, laboriosam sed pariatur?
+          </p>
+        </mat-card-content>
+    </mat-card>
+    </div>
+
+
+</div>
+
+<mat-divider style="margin:20px 0px 20px 0px;"></mat-divider>
+
+<h3 class="font-weight-500">Last registered orcs</h3>
+
+<div class="row">
+
+  <div class="card-spaces">
+
+      <mat-card class="card">
+          <mat-card-header>
+            <div mat-card-avatar class="card-header-image"></div>
+            <mat-card-title>Shiba Inu</mat-card-title>
+            <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+          <mat-card-content>
+            <p>The orc lucaswiix joined his battle on April 23
+                <mat-list class="soldier-infos row">  
+                    <mat-list-item style="width: 50%;">
+                      <mat-icon mat-list-icon>group</mat-icon>
+                      <h4 mat-line>Globins</h4>
+                      <p mat-line>Group</p>
+                    </mat-list-item>
+                  
+                    <mat-list-item style="width: 50%;">
+                      <mat-icon mat-list-icon>map</mat-icon>
+                      <h4 mat-line>Isenguard</h4>
+                      <p mat-line>Area</p>
+                    </mat-list-item>            
+                    
+                </mat-list>
+      
+            </p>
+          </mat-card-content>
+          <mat-card-actions class="row" style="border-top: 0.5px solid #eee;">
+            <div style="width: 50%;text-align: left;">
+            <button mat-button color="warn">DELETE</button>
+            </div>
+            <div style="width: 50%;text-align: right;">
+              <a routerLink="/saruman-panel/soldiers/edit/1">
+            <button mat-button color="link" >CHANGE</button>
+          </a>
+            </div>
+          </mat-card-actions>
+        </mat-card>
+
+  </div>
+
+
+
+</div>

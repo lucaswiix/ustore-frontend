@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SarumanNavbarComponent } from './saruman-navbar.component';
+import { StaticsComponent } from './statics.component';
 
-describe('SarumanNavbarComponent', () => {
-  let component: SarumanNavbarComponent;
-  let fixture: ComponentFixture<SarumanNavbarComponent>;
+describe('StaticsComponent', () => {
+  let component: StaticsComponent;
+  let fixture: ComponentFixture<StaticsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SarumanNavbarComponent ]
+      declarations: [ StaticsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SarumanNavbarComponent);
+    fixture = TestBed.createComponent(StaticsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

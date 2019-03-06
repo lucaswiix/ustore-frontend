@@ -11,17 +11,16 @@ notAuth:
 
 Panel Orc:
 - [x] Dashboard Orcs 
-- [ ] Profile Orcs 
-- [ ] All Orders 
+- [x] Profile Orcs 
 
 Panel Saruman:
-- [ ] Dashboard 
-- [ ] Actions component
-- [ ] Send action
-- [ ] Msgs component
-- [ ] Send Messages
-- [ ] View all soldiers
-- [ ] Edit orc component
+- [x] Dashboard 
+- [x] Order component
+- [x] Send order
+- [x] Msgs component
+- [x] Send Messages
+- [x] View all soldiers
+- [x] Edit orc component
 
 ### Services:
 - [ ] Auth

@@ -1,0 +1,8 @@
+<mat-form-field>
+    <mat-select required>
+      <mat-option *ngFor="let soldier of soldiers" [value]="soldier.id">
+        {{soldier.name}}
+      </mat-option>
+    </mat-select>
+    <mat-placeholder class="placeholder">Soldier</mat-placeholder>
+</mat-form-field>

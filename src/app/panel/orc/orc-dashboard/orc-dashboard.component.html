@@ -1,5 +1,5 @@
 <h3 style="font-weight: 500;">Latest orders</h3>
-<div style="display:flex;flex-wrap: wrap;">
+<div class="row">
 
 <div class="card-spaces" *ngFor="let action of actions"> 
 <mat-card class="card">
@@ -14,7 +14,7 @@
       </p>
     </mat-card-content>
 
-    <mat-card-actions style="display:flex;flex-wrap: wrap;">
+    <mat-card-actions class="row">
       <div style="width: 50%;text-align: left;">
         <button mat-icon-button color="basic">
             <mat-icon aria-label="Decline this order">close</mat-icon>
