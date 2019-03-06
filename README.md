@@ -1,8 +1,8 @@
 # Ustore - Front End Only [study]
 
 - Front end of project ustore
-
-Pages notAuth:
+### Pages
+notAuth:
 - [x] Index component
 - [x] Orc login component
 - [x] Orc Register component
@@ -23,7 +23,7 @@ Panel Saruman:
 - [ ] View all soldiers
 - [ ] Edit orc component
 
-Services:
+### Services:
 - [ ] Auth
 - [ ] ApiRest
 - [ ] test unit 
