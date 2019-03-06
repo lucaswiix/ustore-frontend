@@ -2,13 +2,18 @@
 
 - Front end of project ustore
 
-Pages:
-- [x] index/login/register pages
-- [x] Dashboard Orcs
-- [ ] Profile Orcs
-- [ ] All Orders
-
-- [ ] Dashboard
+Pages notAuth:
+- [x] Index component
+- [x] Orc login component
+- [x] Orc Register component
+- [x] saruman register component
+- [x] Routing 
+Panel Orc:
+- [x] Dashboard Orcs 
+- [ ] Profile Orcs 
+- [ ] All Orders 
+Panel Saruman:
+- [ ] Dashboard 
 - [ ] Actions component
 - [ ] Send action
 - [ ] Msgs component
