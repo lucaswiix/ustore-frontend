@@ -8,10 +8,12 @@ Pages notAuth:
 - [x] Orc Register component
 - [x] saruman register component
 - [x] Routing 
+
 Panel Orc:
 - [x] Dashboard Orcs 
 - [ ] Profile Orcs 
 - [ ] All Orders 
+
 Panel Saruman:
 - [ ] Dashboard 
 - [ ] Actions component
